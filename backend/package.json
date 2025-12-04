@@ -4,12 +4,13 @@
   "description": "Code Reviewer backend",
   "main": "server.js",
   "scripts": {
-    "dev":"nodemon server.js"
+    "dev": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@google/genai": "^1.30.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1"
   }
